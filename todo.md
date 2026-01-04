@@ -1,7 +1,5 @@
-- [ ] Remover referências a 'Manus' do README.md
-- [ ] Remover referências a 'Manus' do package.json
-- [ ] Remover referências a 'Manus' do index.html
-- [ ] Remover referências a 'Manus' de comentários no código
-- [ ] Melhorar estilo do botão LanguageSwitcher
-- [ ] Alterar autor do git para 'Diego'
-- [ ] Reescrever histórico do git para remover autor antigo
+- [ ] Criar componente ContactForm.tsx
+- [ ] Adicionar chaves de tradução para contato em pt.json e en.json
+- [ ] Integrar ContactForm na Home.tsx
+- [ ] Commitar alterações como Diego
+- [ ] Push para GitHub

@@ -1,10 +1,11 @@
 import { Logo } from "@/components/Logo";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowRight, Brain, Wind, Zap } from "lucide-react";
+import { ArrowRight, Brain, Wind, Zap, Github, Mail } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslation, Trans } from "react-i18next";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { ContactForm } from "@/components/ContactForm";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -207,6 +208,20 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Contact Section */}
+      <section id="contact" className="py-24 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-background via-primary/5 to-background opacity-50" />
+        <div className="container mx-auto px-6 relative z-10">
+          <div className="max-w-2xl mx-auto text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">{t('contact.title')}</h2>
+            <p className="text-muted-foreground text-lg">
+              {t('contact.message_placeholder')}
+            </p>
+          </div>
+          <ContactForm />
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="py-12 border-t border-border/40 bg-background">
         <div className="container mx-auto px-6">
@@ -219,11 +234,11 @@ export default function Home() {
               {t('footer.rights')}
             </div>
             <div className="flex gap-6">
-              <a href="https://github.com/vayulab" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-                GitHub
+              <a href="https://github.com/vayulab" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2">
+                <Github className="w-4 h-4" /> GitHub
               </a>
-              <a href="mailto:diego@vayulab.io" className="text-muted-foreground hover:text-primary transition-colors">
-                {t('nav.contact')}
+              <a href="mailto:diego@vayulab.io" className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2">
+                <Mail className="w-4 h-4" /> {t('nav.contact')}
               </a>
             </div>
           </div>

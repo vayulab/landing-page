@@ -40,5 +40,18 @@
   },
   "footer": {
     "rights": "© 2026 VayuLab. Todos os direitos reservados."
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "name": "Nome",
+    "name_placeholder": "Seu nome",
+    "email": "E-mail",
+    "email_placeholder": "seu@email.com",
+    "message": "Mensagem",
+    "message_placeholder": "Como podemos ajudar?",
+    "submit": "Enviar Mensagem",
+    "sending": "Enviando...",
+    "success": "Mensagem enviada com sucesso!",
+    "error": "Erro ao enviar mensagem. Tente novamente."
   }
 }
