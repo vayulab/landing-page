@@ -1,0 +1,3 @@
+- [ ] Redesenhar Logo SVG com geometria dos Chakras (Linearidade Vertical)
+- [ ] Atualizar componente Logo.tsx
+- [ ] Verificar alinhamento no Header
