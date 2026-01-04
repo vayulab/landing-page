@@ -1,3 +1,6 @@
-- [ ] Redesenhar Logo SVG com geometria dos Chakras (Linearidade Vertical)
-- [ ] Atualizar componente Logo.tsx
-- [ ] Verificar alinhamento no Header
+- [ ] Instalar i18next e react-i18next
+- [ ] Criar arquivos de tradução (pt.json, en.json)
+- [ ] Refatorar Home.tsx para usar useTranslation
+- [ ] Adicionar botão de troca de idioma no Header
+- [ ] Criar repositório 'landing-page' no GitHub
+- [ ] Enviar código para o GitHub

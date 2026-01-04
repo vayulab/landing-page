@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "philosophy": "Philosophy",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Conscious Technology Lab",
+    "title_prefix": "Technology meets",
+    "title_highlight": "consciousness",
+    "description": "An idea lab dedicated to creating tools that expand human perception and promote inner balance through digital innovation.",
+    "cta_primary": "Meet Meditary",
+    "cta_secondary": "Our Philosophy"
+  },
+  "about": {
+    "title": "Where vital breath meets code",
+    "p1": "VayuLab is born at the intersection of ancient wisdom and digital innovation. Inspired by the concept of <0>Vayu</0> — the vital breath that connects the inner to the outer — we develop projects that translate complex concepts of philosophy and science into practical experiences.",
+    "p2": "We are not just developers; we are experience architects seeking to elevate human consciousness through technology."
+  },
+  "meditary": {
+    "badge": "First Project",
+    "title": "Meditary",
+    "description": "Your deep meditation journal. Meditary is not just a timer; it is a self-inquiry tool designed to map your inner journey.",
+    "feature1_title": "Mental Mapping",
+    "feature1_desc": "Identify concentration patterns and mental states.",
+    "feature2_title": "Kriya Focus",
+    "feature2_desc": "Specialized tools for traditional techniques.",
+    "cta": "View on GitHub"
+  },
+  "philosophy": {
+    "title": "Our Philosophy",
+    "subtitle": "Three fundamental pillars that support every line of code we write.",
+    "investigation_title": "Investigation",
+    "investigation_desc": "Questioning the nature of reality through logic and intuition.",
+    "practice_title": "Practice",
+    "practice_desc": "Creating tools that facilitate daily discipline and consistency.",
+    "expansion_title": "Expansion",
+    "expansion_desc": "Using technology as a bridge to elevate human consciousness."
+  },
+  "footer": {
+    "rights": "© 2026 VayuLab. All rights reserved."
+  }
+}

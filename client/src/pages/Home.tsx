@@ -3,8 +3,12 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, Brain, Wind, Zap } from "lucide-react";
 import { motion } from "framer-motion";
+import { useTranslation, Trans } from "react-i18next";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 
 export default function Home() {
+  const { t } = useTranslation();
+
   return (
     <div className="min-h-screen bg-background text-foreground font-sans selection:bg-primary/20">
       {/* Navigation */}
@@ -17,13 +21,16 @@ export default function Home() {
             </span>
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
-            <a href="#about" className="hover:text-primary transition-colors">Sobre</a>
-            <a href="#meditary" className="hover:text-primary transition-colors">Projetos</a>
-            <a href="#philosophy" className="hover:text-primary transition-colors">Filosofia</a>
+            <a href="#about" className="hover:text-primary transition-colors">{t('nav.about')}</a>
+            <a href="#meditary" className="hover:text-primary transition-colors">{t('nav.projects')}</a>
+            <a href="#philosophy" className="hover:text-primary transition-colors">{t('nav.philosophy')}</a>
           </div>
-          <Button variant="outline" className="rounded-full px-6 border-primary/20 hover:bg-primary/5 hover:text-primary">
-            Contato
-          </Button>
+          <div className="flex items-center gap-4">
+            <LanguageSwitcher />
+            <Button variant="outline" className="rounded-full px-6 border-primary/20 hover:bg-primary/5 hover:text-primary">
+              {t('nav.contact')}
+            </Button>
+          </div>
         </div>
       </nav>
 
@@ -38,23 +45,23 @@ export default function Home() {
             >
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/5 border border-primary/10 text-primary text-sm font-medium mb-8">
                 <Wind className="w-4 h-4" />
-                <span>Laboratório de Tecnologia Consciente</span>
+                <span>{t('hero.badge')}</span>
               </div>
               <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 leading-tight">
-                A tecnologia encontra <br />
+                {t('hero.title_prefix')} <br />
                 <span className="bg-gradient-to-r from-primary via-secondary to-primary bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient">
-                  a consciência
+                  {t('hero.title_highlight')}
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
-                Um laboratório de ideias dedicado a criar ferramentas que expandem a percepção humana e promovem o equilíbrio interior através da inovação digital.
+                {t('hero.description')}
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Button size="lg" className="rounded-full px-8 text-lg h-12 bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/20">
-                  Conheça o Meditary
+                  {t('hero.cta_primary')}
                 </Button>
                 <Button size="lg" variant="outline" className="rounded-full px-8 text-lg h-12 border-border hover:bg-secondary/5">
-                  Nossa Filosofia
+                  {t('hero.cta_secondary')}
                 </Button>
               </div>
             </motion.div>
@@ -77,13 +84,13 @@ export default function Home() {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Onde o sopro vital encontra o código
+                {t('about.title')}
               </h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                A VayuLab nasce da intersecção entre a sabedoria ancestral e a inovação digital. Inspirados pelo conceito de <strong>Vayu</strong> — o sopro vital que conecta o interno ao externo — desenvolvemos projetos que traduzem conceitos complexos de filosofia e ciência em experiências práticas.
+                <Trans i18nKey="about.p1" components={[<strong key="0" />]} />
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Não somos apenas desenvolvedores; somos arquitetos de experiências que buscam elevar a consciência humana através da tecnologia.
+                {t('about.p2')}
               </p>
             </motion.div>
             <div className="relative">
@@ -120,11 +127,11 @@ export default function Home() {
             <div className="order-1 md:order-2">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/10 text-secondary text-sm font-medium mb-6">
                 <Zap className="w-4 h-4" />
-                <span>Primeiro Projeto</span>
+                <span>{t('meditary.badge')}</span>
               </div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">Meditary</h2>
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">{t('meditary.title')}</h2>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                Seu diário de meditação profunda. O Meditary não é apenas um timer; é uma ferramenta de auto-investigação desenhada para mapear sua jornada interior.
+                {t('meditary.description')}
               </p>
               
               <div className="space-y-6 mb-10">
@@ -133,8 +140,8 @@ export default function Home() {
                     <Brain className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg mb-1">Mapeamento Mental</h3>
-                    <p className="text-muted-foreground">Identifique padrões de concentração e estados mentais.</p>
+                    <h3 className="font-semibold text-lg mb-1">{t('meditary.feature1_title')}</h3>
+                    <p className="text-muted-foreground">{t('meditary.feature1_desc')}</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -142,14 +149,14 @@ export default function Home() {
                     <Wind className="w-6 h-6 text-secondary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg mb-1">Foco em Kriya</h3>
-                    <p className="text-muted-foreground">Ferramentas especializadas para técnicas tradicionais.</p>
+                    <h3 className="font-semibold text-lg mb-1">{t('meditary.feature2_title')}</h3>
+                    <p className="text-muted-foreground">{t('meditary.feature2_desc')}</p>
                   </div>
                 </div>
               </div>
               
               <Button size="lg" className="rounded-full px-8 bg-gray-900 text-white hover:bg-gray-800">
-                Ver no GitHub <ArrowRight className="ml-2 w-4 h-4" />
+                {t('meditary.cta')} <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
             </div>
           </div>
@@ -160,27 +167,27 @@ export default function Home() {
       <section id="philosophy" className="py-24 bg-muted/30">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Nossa Filosofia</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">{t('philosophy.title')}</h2>
             <p className="text-lg text-muted-foreground">
-              Três pilares fundamentais que sustentam cada linha de código que escrevemos.
+              {t('philosophy.subtitle')}
             </p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                title: "Investigação",
-                desc: "Questionar a natureza da realidade através da lógica e da intuição.",
+                title: t('philosophy.investigation_title'),
+                desc: t('philosophy.investigation_desc'),
                 icon: <Brain className="w-8 h-8 text-primary" />
               },
               {
-                title: "Prática",
-                desc: "Criar ferramentas que facilitem a disciplina e a constância diária.",
+                title: t('philosophy.practice_title'),
+                desc: t('philosophy.practice_desc'),
                 icon: <Zap className="w-8 h-8 text-secondary" />
               },
               {
-                title: "Expansão",
-                desc: "Usar a tecnologia como uma ponte para elevar a consciência humana.",
+                title: t('philosophy.expansion_title'),
+                desc: t('philosophy.expansion_desc'),
                 icon: <Wind className="w-8 h-8 text-primary" />
               }
             ].map((item, i) => (
@@ -209,14 +216,14 @@ export default function Home() {
               <span className="font-bold text-muted-foreground">VayuLab</span>
             </div>
             <div className="text-sm text-muted-foreground">
-              © 2026 VayuLab. Todos os direitos reservados.
+              {t('footer.rights')}
             </div>
             <div className="flex gap-6">
               <a href="https://github.com/vayulab" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 GitHub
               </a>
               <a href="mailto:diego@vayulab.io" className="text-muted-foreground hover:text-primary transition-colors">
-                Contato
+                {t('nav.contact')}
               </a>
             </div>
           </div>

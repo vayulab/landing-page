@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "about": "Sobre",
+    "projects": "Projetos",
+    "philosophy": "Filosofia",
+    "contact": "Contato"
+  },
+  "hero": {
+    "badge": "Laboratório de Tecnologia Consciente",
+    "title_prefix": "A tecnologia encontra",
+    "title_highlight": "a consciência",
+    "description": "Um laboratório de ideias dedicado a criar ferramentas que expandem a percepção humana e promovem o equilíbrio interior através da inovação digital.",
+    "cta_primary": "Conheça o Meditary",
+    "cta_secondary": "Nossa Filosofia"
+  },
+  "about": {
+    "title": "Onde o sopro vital encontra o código",
+    "p1": "A VayuLab nasce da intersecção entre a sabedoria ancestral e a inovação digital. Inspirados pelo conceito de <0>Vayu</0> — o sopro vital que conecta o interno ao externo — desenvolvemos projetos que traduzem conceitos complexos de filosofia e ciência em experiências práticas.",
+    "p2": "Não somos apenas desenvolvedores; somos arquitetos de experiências que buscam elevar a consciência humana através da tecnologia."
+  },
+  "meditary": {
+    "badge": "Primeiro Projeto",
+    "title": "Meditary",
+    "description": "Seu diário de meditação profunda. O Meditary não é apenas um timer; é uma ferramenta de auto-investigação desenhada para mapear sua jornada interior.",
+    "feature1_title": "Mapeamento Mental",
+    "feature1_desc": "Identifique padrões de concentração e estados mentais.",
+    "feature2_title": "Foco em Kriya",
+    "feature2_desc": "Ferramentas especializadas para técnicas tradicionais.",
+    "cta": "Ver no GitHub"
+  },
+  "philosophy": {
+    "title": "Nossa Filosofia",
+    "subtitle": "Três pilares fundamentais que sustentam cada linha de código que escrevemos.",
+    "investigation_title": "Investigação",
+    "investigation_desc": "Questionar a natureza da realidade através da lógica e da intuição.",
+    "practice_title": "Prática",
+    "practice_desc": "Criar ferramentas que facilitem a disciplina e a constância diária.",
+    "expansion_title": "Expansão",
+    "expansion_desc": "Usar a tecnologia como uma ponte para elevar a consciência humana."
+  },
+  "footer": {
+    "rights": "© 2026 VayuLab. Todos os direitos reservados."
+  }
+}
