@@ -1,6 +1,7 @@
-- [ ] Instalar i18next e react-i18next
-- [ ] Criar arquivos de tradução (pt.json, en.json)
-- [ ] Refatorar Home.tsx para usar useTranslation
-- [ ] Adicionar botão de troca de idioma no Header
-- [ ] Criar repositório 'landing-page' no GitHub
-- [ ] Enviar código para o GitHub
+- [ ] Remover referências a 'Manus' do README.md
+- [ ] Remover referências a 'Manus' do package.json
+- [ ] Remover referências a 'Manus' do index.html
+- [ ] Remover referências a 'Manus' de comentários no código
+- [ ] Melhorar estilo do botão LanguageSwitcher
+- [ ] Alterar autor do git para 'Diego'
+- [ ] Reescrever histórico do git para remover autor antigo

@@ -11,10 +11,10 @@ export const LanguageSwitcher = () => {
 
   return (
     <Button 
-      variant="ghost" 
+      variant="outline" 
       size="sm" 
       onClick={toggleLanguage}
-      className="font-medium text-muted-foreground hover:text-primary"
+      className="font-bold text-primary border-primary/20 hover:bg-primary hover:text-white transition-all w-10 h-10 rounded-full p-0"
     >
       {i18n.language === 'pt' ? 'EN' : 'PT'}
     </Button>
