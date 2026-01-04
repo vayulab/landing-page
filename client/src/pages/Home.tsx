@@ -28,7 +28,7 @@ export default function Home() {
           </div>
           <div className="flex items-center gap-4">
             <LanguageSwitcher />
-            <Button variant="outline" className="rounded-full px-6 border-primary/20 hover:bg-primary/5 hover:text-primary">
+            <Button variant="outline" className="rounded-full px-6 border-primary/20 hover:bg-primary/5 hover:text-primary" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>
               {t('nav.contact')}
             </Button>
           </div>
@@ -58,10 +58,10 @@ export default function Home() {
                 {t('hero.description')}
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <Button size="lg" className="rounded-full px-8 text-lg h-12 bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/20">
+                <Button size="lg" className="rounded-full px-8 text-lg h-12 bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/20" onClick={() => document.getElementById('meditary')?.scrollIntoView({ behavior: 'smooth' })}>
                   {t('hero.cta_primary')}
                 </Button>
-                <Button size="lg" variant="outline" className="rounded-full px-8 text-lg h-12 border-border hover:bg-secondary/5">
+                <Button size="lg" variant="outline" className="rounded-full px-8 text-lg h-12 border-border hover:bg-secondary/5" onClick={() => document.getElementById('philosophy')?.scrollIntoView({ behavior: 'smooth' })}>
                   {t('hero.cta_secondary')}
                 </Button>
               </div>

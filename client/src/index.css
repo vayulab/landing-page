@@ -193,3 +193,6 @@
     }
   }
 }
+html {
+  scroll-behavior: smooth;
+}

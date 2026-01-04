@@ -5,7 +5,8 @@ export const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
 
   const toggleLanguage = () => {
-    const newLang = i18n.language === 'pt' ? 'en' : 'pt';
+    const isPt = i18n.language.startsWith('pt');
+    const newLang = isPt ? 'en' : 'pt';
     i18n.changeLanguage(newLang);
   };
 
@@ -16,7 +17,7 @@ export const LanguageSwitcher = () => {
       onClick={toggleLanguage}
       className="font-bold text-primary border-primary/20 hover:bg-primary hover:text-white transition-all w-10 h-10 rounded-full p-0"
     >
-      {i18n.language === 'pt' ? 'EN' : 'PT'}
+      {i18n.language.startsWith('pt') ? 'EN' : 'PT'}
     </Button>
   );
 };
