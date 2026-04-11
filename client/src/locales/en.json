@@ -14,7 +14,7 @@
     "cta_secondary": "Our Philosophy"
   },
   "about": {
-    "title": "Where vital breath meets code",
+    "title": "Where technology meets vital breath",
     "p1": "VayuLab is born at the intersection of ancient wisdom and digital innovation. Inspired by the concept of <0>Vayu</0> — the vital breath that connects the inner to the outer — we develop projects that translate complex concepts of philosophy and science into practical experiences.",
     "p2": "We are not just developers; we are experience architects seeking to elevate human consciousness through technology."
   },
@@ -34,24 +34,15 @@
     "investigation_title": "Investigation",
     "investigation_desc": "Questioning the nature of reality through logic and intuition.",
     "practice_title": "Practice",
-    "practice_desc": "Creating tools that facilitate daily discipline and consistency.",
+    "practice_desc": "Creating tools that facilitate daily discipline, consistency and intensity.",
     "expansion_title": "Expansion",
-    "expansion_desc": "Using technology as a bridge to elevate human consciousness."
+    "expansion_desc": "Elevate human consciousness."
   },
   "footer": {
     "rights": "© 2026 VayuLab. All rights reserved."
   },
   "contact": {
     "title": "Get in Touch",
-    "name": "Name",
-    "name_placeholder": "Your name",
-    "email": "Email",
-    "email_placeholder": "your@email.com",
-    "message": "Message",
-    "message_placeholder": "How can we help?",
-    "submit": "Send Message",
-    "sending": "Sending...",
-    "success": "Message sent successfully!",
-    "error": "Error sending message. Please try again."
+    "subtitle": "Have a question or want to collaborate? Send us an email."
   }
 }

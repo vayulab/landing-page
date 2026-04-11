@@ -1,5 +1,0 @@
-- [ ] Criar componente ContactForm.tsx
-- [ ] Adicionar chaves de tradução para contato em pt.json e en.json
-- [ ] Integrar ContactForm na Home.tsx
-- [ ] Commitar alterações como Diego
-- [ ] Push para GitHub

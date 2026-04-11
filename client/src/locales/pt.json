@@ -14,7 +14,7 @@
     "cta_secondary": "Nossa Filosofia"
   },
   "about": {
-    "title": "Onde o sopro vital encontra o código",
+    "title": "Onde a tecnologia encontra o sopro vital",
     "p1": "A VayuLab nasce da intersecção entre a sabedoria ancestral e a inovação digital. Inspirados pelo conceito de <0>Vayu</0> — o sopro vital que conecta o interno ao externo — desenvolvemos projetos que traduzem conceitos complexos de filosofia e ciência em experiências práticas.",
     "p2": "Não somos apenas desenvolvedores; somos arquitetos de experiências que buscam elevar a consciência humana através da tecnologia."
   },
@@ -34,24 +34,15 @@
     "investigation_title": "Investigação",
     "investigation_desc": "Questionar a natureza da realidade através da lógica e da intuição.",
     "practice_title": "Prática",
-    "practice_desc": "Criar ferramentas que facilitem a disciplina e a constância diária.",
+    "practice_desc": "Criar ferramentas que facilitem a disciplina, a constância e a intensidade diária.",
     "expansion_title": "Expansão",
-    "expansion_desc": "Usar a tecnologia como uma ponte para elevar a consciência humana."
+    "expansion_desc": "Elevar a consciência humana."
   },
   "footer": {
     "rights": "© 2026 VayuLab. Todos os direitos reservados."
   },
   "contact": {
     "title": "Entre em Contato",
-    "name": "Nome",
-    "name_placeholder": "Seu nome",
-    "email": "E-mail",
-    "email_placeholder": "seu@email.com",
-    "message": "Mensagem",
-    "message_placeholder": "Como podemos ajudar?",
-    "submit": "Enviar Mensagem",
-    "sending": "Enviando...",
-    "success": "Mensagem enviada com sucesso!",
-    "error": "Erro ao enviar mensagem. Tente novamente."
+    "subtitle": "Tem uma dúvida ou quer colaborar? Mande um e-mail."
   }
 }
