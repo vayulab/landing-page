@@ -48,7 +48,7 @@ export function ContactForm() {
         body: JSON.stringify(values),
       });
 
-      if (response.ok || response.status === 404) { // 404 allowed for demo purposes
+      if (response.ok) {
         toast.success(t('contact.success'));
         form.reset();
       } else {
