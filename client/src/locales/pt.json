@@ -2,43 +2,44 @@
   "nav": {
     "about": "Sobre",
     "projects": "Projetos",
-    "philosophy": "Filosofia",
+    "pillars": "Pilares",
     "contact": "Contato"
   },
   "hero": {
-    "badge": "Laboratório de Tecnologia Consciente",
-    "title_prefix": "A tecnologia encontra",
-    "title_highlight": "a consciência",
-    "description": "Um laboratório de ideias dedicado a criar ferramentas que expandem a percepção humana e promovem o equilíbrio interior através da inovação digital.",
-    "cta_primary": "Conheça o Meditary",
-    "cta_secondary": "Nossa Filosofia"
+    "badge": "Soberania Cognitiva & Inteligência Resiliente",
+    "title_prefix": "Soberania cognitiva",
+    "title_highlight": "na era da inteligência artificial.",
+    "description": "Construímos arquiteturas que filtram o ruído computacional, protegem a autonomia analítica e garantem que o discernimento humano permaneça no controle de cada decisão crítica.",
+    "cta_primary": "Fortalecer Discernimento",
+    "cta_secondary": "Conheça a Arquitetura"
   },
   "about": {
-    "title": "Onde a tecnologia encontra o sopro vital",
-    "p1": "A VayuLab nasce da intersecção entre a sabedoria ancestral e a inovação digital. Inspirados pelo conceito de <0>Vayu</0> — o sopro vital que conecta o interno ao externo — desenvolvemos projetos que traduzem conceitos complexos de filosofia e ciência em experiências práticas.",
-    "p2": "Não somos apenas desenvolvedores; somos arquitetos de experiências que buscam elevar a consciência humana através da tecnologia."
+    "title": "A tecnologia como salvaguarda cognitiva",
+    "p1": "No <0>VayuLab</0>, encaramos a tecnologia não como um substituto da mente, mas como uma salvaguarda cognitiva: projetamos soluções que protegem a clareza e reforçam a resiliência analítica.",
+    "p2": "A automação acelerada não pode custar a autoridade do pensamento. Por isso, preservamos a capacidade humana de julgar, ponderar e decidir com responsabilidade."
   },
   "meditary": {
     "badge": "Primeiro Projeto",
     "title": "Meditary",
-    "description": "Seu diário de meditação profunda. O Meditary não é apenas um timer; é uma ferramenta de auto-investigação desenhada para mapear sua jornada interior.",
-    "feature1_title": "Mapeamento Mental",
-    "feature1_desc": "Identifique padrões de concentração e estados mentais.",
-    "feature2_title": "Foco em Kriya",
-    "feature2_desc": "Ferramentas especializadas para técnicas tradicionais.",
+    "description": "Um diário de prática de atenção sustentada. O Meditary é um exemplo da nossa abordagem: uma ferramenta que devolve foco e clareza a quem a usa, sem decidir por ninguém.",
+    "feature1_title": "Registro de Atenção",
+    "feature1_desc": "Identifique padrões de concentração com dados que embasam o seu próprio julgamento.",
+    "feature2_title": "Foco Sem Ruído",
+    "feature2_desc": "Uma experiência enxuta, que isola o que importa e devolve tempo para a reflexão.",
     "cta": "Ver no GitHub"
   },
-  "philosophy": {
-    "title": "Nossa Filosofia",
-    "subtitle": "Três pilares fundamentais que sustentam cada linha de código que escrevemos.",
-    "investigation_title": "Investigação",
-    "investigation_desc": "Questionar a natureza da realidade através da lógica e da intuição.",
-    "practice_title": "Prática",
-    "practice_desc": "Criar ferramentas que facilitem a disciplina, a constância e a intensidade diária.",
-    "expansion_title": "Expansão",
-    "expansion_desc": "Elevar a consciência humana."
+"pillars": {
+    "title": "Pilares de Comunicação",
+    "subtitle": "Três princípios que orientam cada arquitetura que projetamos.",
+    "autonomy_title": "01. Autonomia Preservada",
+    "autonomy_desc": "Sistemas desenhados no modelo human-in-the-loop, onde o processamento de dados serve para embasar a intuição humana, nunca para atropelá-la.",
+    "noise_title": "02. Filtragem de Ruído Analítico",
+    "noise_desc": "Arquiteturas projetadas para isolar sinais relevantes em ambientes saturados de informação, devolvendo tempo e foco para a reflexão estratégica.",
+    "sovereignty_title": "03. Defesa & Soberania da Decisão",
+    "sovereignty_desc": "Blindagem contra viéses de automação, assegurando que o controle final e a responsabilidade ética permaneçam inegociavelmente com quem lidera."
   },
   "footer": {
+    "tagline": "VayuLab — Defender o discernimento humano é a nossa arquitetura.",
     "rights": "© 2026 VayuLab. Todos os direitos reservados."
   },
   "contact": {
