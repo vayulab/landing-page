@@ -46,7 +46,7 @@ export default function Home() {
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
             <a href="#about" className="hover:text-primary transition-colors">{t('nav.about')}</a>
             <a href="#meditary" className="hover:text-primary transition-colors">{t('nav.projects')}</a>
-            <a href="#philosophy" className="hover:text-primary transition-colors">{t('nav.philosophy')}</a>
+            <a href="#pillars" className="hover:text-primary transition-colors">{t('nav.pillars')}</a>
           </div>
           <div className="flex items-center gap-4">
             <LanguageSwitcher />
@@ -108,7 +108,7 @@ export default function Home() {
                 <Button
                   size="lg"
                   className="rounded-full px-8 text-lg h-12 bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/20 animate-breathe"
-                  onClick={() => document.getElementById('meditary')?.scrollIntoView({ behavior: 'smooth' })}
+                  onClick={() => document.getElementById('pillars')?.scrollIntoView({ behavior: 'smooth' })}
                 >
                   {t('hero.cta_primary')}
                 </Button>
@@ -116,7 +116,7 @@ export default function Home() {
                   size="lg"
                   variant="outline"
                   className="rounded-full px-8 text-lg h-12 border-border hover:bg-secondary/5 hover:border-secondary/30 transition-all duration-300"
-                  onClick={() => document.getElementById('philosophy')?.scrollIntoView({ behavior: 'smooth' })}
+                  onClick={() => document.getElementById('pillars')?.scrollIntoView({ behavior: 'smooth' })}
                 >
                   {t('hero.cta_secondary')}
                 </Button>
@@ -293,33 +293,33 @@ export default function Home() {
 
       <CircuitDivider />
 
-      {/* Philosophy Section */}
-      <section id="philosophy" className="py-24 bg-muted/30">
+      {/* Pillars Section */}
+      <section id="pillars" className="py-24 bg-muted/30">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">{t('philosophy.title')}</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">{t('pillars.title')}</h2>
             <p className="text-lg text-muted-foreground">
-              {t('philosophy.subtitle')}
+              {t('pillars.subtitle')}
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                title: t('philosophy.investigation_title'),
-                desc: t('philosophy.investigation_desc'),
+                title: t('pillars.autonomy_title'),
+                desc: t('pillars.autonomy_desc'),
                 icon: <Brain className="w-8 h-8 text-primary" />,
                 delay: 0,
               },
               {
-                title: t('philosophy.practice_title'),
-                desc: t('philosophy.practice_desc'),
+                title: t('pillars.noise_title'),
+                desc: t('pillars.noise_desc'),
                 icon: <Zap className="w-8 h-8 text-secondary" />,
                 delay: 0.1,
               },
               {
-                title: t('philosophy.expansion_title'),
-                desc: t('philosophy.expansion_desc'),
+                title: t('pillars.sovereignty_title'),
+                desc: t('pillars.sovereignty_desc'),
                 icon: <Wind className="w-8 h-8 text-primary" />,
                 delay: 0.2,
               },
@@ -392,8 +392,9 @@ export default function Home() {
               <Logo className="w-8 h-8 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all" />
               <span className="font-bold text-muted-foreground" style={{ fontFamily: "var(--font-display)" }}>VayuLab</span>
             </div>
-            <div className="text-sm text-muted-foreground">
-              {t('footer.rights')}
+            <div className="text-sm text-muted-foreground text-center space-y-1">
+              <p>{t('footer.tagline')}</p>
+              <p>{t('footer.rights')}</p>
             </div>
             <div className="flex gap-6">
               <a href="https://github.com/vayulab" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2">

@@ -2,43 +2,44 @@
   "nav": {
     "about": "About",
     "projects": "Projects",
-    "philosophy": "Philosophy",
+    "pillars": "Pillars",
     "contact": "Contact"
   },
   "hero": {
-    "badge": "Conscious Technology Lab",
-    "title_prefix": "Technology meets",
-    "title_highlight": "consciousness",
-    "description": "An idea lab dedicated to creating tools that expand human perception and promote inner balance through digital innovation.",
-    "cta_primary": "Meet Meditary",
-    "cta_secondary": "Our Philosophy"
+    "badge": "Cognitive Sovereignty & Resilient Intelligence",
+    "title_prefix": "Cognitive sovereignty",
+    "title_highlight": "in the age of artificial intelligence.",
+    "description": "We build architectures that filter computational noise, protect analytical autonomy and ensure that human discernment stays in control of every critical decision.",
+    "cta_primary": "Strengthen Discernment",
+    "cta_secondary": "Explore the Architecture"
   },
   "about": {
-    "title": "Where technology meets vital breath",
-    "p1": "VayuLab is born at the intersection of ancient wisdom and digital innovation. Inspired by the concept of <0>Vayu</0> — the vital breath that connects the inner to the outer — we develop projects that translate complex concepts of philosophy and science into practical experiences.",
-    "p2": "We are not just developers; we are experience architects seeking to elevate human consciousness through technology."
+    "title": "Technology as a cognitive safeguard",
+    "p1": "At <0>VayuLab</0>, we see technology not as a substitute for the mind, but as a cognitive safeguard: we design solutions that protect clarity and strengthen analytical resilience.",
+    "p2": "Accelerated automation must not cost the authority of thought. That is why we preserve the human capacity to judge, weigh and decide responsibly."
   },
   "meditary": {
     "badge": "First Project",
     "title": "Meditary",
-    "description": "Your deep meditation journal. Meditary is not just a timer; it is a self-inquiry tool designed to map your inner journey.",
-    "feature1_title": "Mental Mapping",
-    "feature1_desc": "Identify concentration patterns and mental states.",
-    "feature2_title": "Kriya Focus",
-    "feature2_desc": "Specialized tools for traditional techniques.",
+    "description": "A sustained-attention practice journal. Meditary is an example of our approach: a tool that gives focus and clarity back to its user, without deciding for anyone.",
+    "feature1_title": "Attention Log",
+    "feature1_desc": "Identify concentration patterns with data that supports your own judgment.",
+    "feature2_title": "Noise-Free Focus",
+    "feature2_desc": "A lean experience that isolates what matters and returns time for reflection.",
     "cta": "View on GitHub"
   },
-  "philosophy": {
-    "title": "Our Philosophy",
-    "subtitle": "Three fundamental pillars that support every line of code we write.",
-    "investigation_title": "Investigation",
-    "investigation_desc": "Questioning the nature of reality through logic and intuition.",
-    "practice_title": "Practice",
-    "practice_desc": "Creating tools that facilitate daily discipline, consistency and intensity.",
-    "expansion_title": "Expansion",
-    "expansion_desc": "Elevate human consciousness."
+  "pillars": {
+    "title": "Communication Pillars",
+    "subtitle": "Three principles that guide every architecture we design.",
+    "autonomy_title": "01. Preserved Autonomy",
+    "autonomy_desc": "Systems designed on the human-in-the-loop model, where data processing serves to support human intuition, never to override it.",
+    "noise_title": "02. Analytical Noise Filtering",
+    "noise_desc": "Architectures designed to isolate relevant signals in information-saturated environments, giving time and focus back to strategic reflection.",
+    "sovereignty_title": "03. Defense & Sovereignty of Decision",
+    "sovereignty_desc": "Shielding against automation bias, ensuring that final control and ethical responsibility remain non-negotiably with those who lead."
   },
   "footer": {
+    "tagline": "VayuLab — Defending human discernment is our architecture.",
     "rights": "© 2026 VayuLab. All rights reserved."
   },
   "contact": {
